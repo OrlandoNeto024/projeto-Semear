@@ -1,0 +1,842 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #f0f1f5;
+    height: 100%;
+    width: 100%;
+}
+
+#container{
+    width: 100%;
+    height: 30%;
+    background: #6200ee ;
+    box-shadow: 0 1px 2px;
+    position: relative;
+}
+
+#navegation{
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 16px 39px ;
+}
+
+#navegation img{
+    height: 34px;
+}
+
+#main-area{
+    background: #fff;
+    width: 39%;
+    height: 50%;
+    margin: 80px auto;
+    padding: 40px 30px;
+}
+
+#register-header{
+    font-size: 1em;
+    padding: 1px;
+    margin-bottom: 1em;
+}
+
+#title{
+    color: #6200ee;
+    margin-bottom: .5em ;
+}
+
+#inputs{
+    width: 100%;
+    position: relative;
+}
+
+#space{
+    display: inline-block;
+    width: 1%;
+}
+
+#select{
+    border:1px solid #c7c7c7; 
+    width:100%
+}
+
+#rodape-main-area{
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 1em;
+}
+
+#btn{
+    border: none;
+    display: inline-block;
+    width: 100%;
+    margin-top: 1em;
+    padding: .5em;
+    background: #6200ee;
+    color: #fff;
+    font-weight: bold;
+    border-radius: .3em;
+    cursor: pointer;
+}
+
+#rodape-pagina{
+    height: 190px;
+    width: 100%;
+    background: #6200ee;
+    position: relative;
+
+}
+
+#footer-container{
+    position: absolute;
+    width: 15%;
+    right: 43%;
+    top: 1em;
+}
+
+#footer-logo{
+    position: absolute;
+    top: 3.8em;
+    right: 45%;
+}
+
+#footer-logo img{
+    height: 2em;
+}
+
+#footer-links{
+    position: absolute;
+    font-size: 16px;
+    bottom: 0;
+    right: 34%;
+    text-align: center;
+    padding: 1em;
+    color: #fff;
+}
+
+#footer-links a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#footer-links p{
+    margin-top: 4px;
+}
+
+.select-style-large{
+    border: 1px solid #c7c7c7;
+    border-radius: .1em;
+    display: inline-block;
+    width:100%;
+    border:none; 
+    outline:none; 
+    background:none;
+}
+.input-style-large{
+    border: 1px solid #c7c7c7;
+    border-radius: .1em;
+    display: inline-block;
+    width:100%;
+}
+
+.select-style-large{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: ' ';
+}
+
+.input-style-short{
+    border: 1px solid #c7c7c7;
+    border-radius: .1em;
+    display: inline-block;
+    width: 48%;
+}
+
+.input-style-short input,
+.input-style-large input{
+    display: inline-block;
+    background: none;
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 1.9em;
+}
+
+.input-style-short{
+    position: relative;
+}
+
+
+.spacing{
+    margin-bottom: 1.5em;
+}
+
+.svg-style{
+    height: 32px;
+    margin-left: 1em;
+    fill: #fff;
+}
+
+@media (max-width: 480px){
+    #main-area{
+        background: #fff;
+        width: 100%;
+        height: 30%;
+        margin: 80px auto;
+        padding: 20px 15px;
+    }
+    #inputs{
+        width: 92%;
+        position: relative;
+    }
+    
+    #space{
+        display: inline-block;
+        width: 1%;
+    }
+    
+    #select{
+        border:1px solid #c7c7c7; 
+        width:100%
+    }
+
+    #rodape-main-area{
+        width: 85%;
+        font-size: 12px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    #btn{
+        border: none;
+        display: inline-block;
+        width: 92%;
+        margin-top: 1em;
+        padding: .5em;
+        background: #6200ee;
+        color: #fff;
+        font-weight: bold;
+        border-radius: .3em;
+        cursor: pointer;
+    }
+    
+    #rodape-pagina{
+        height: 200px;
+        width: 100%;
+        background: #6200ee;
+    }
+    #footer-elements{
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+    }
+    #footer-container{
+        position: absolute;
+        top: .5em;
+        left: 1em;
+        display: block;
+        width: 90%;
+        text-align: center;
+    }
+
+    #footer-container a{
+        margin: 0 .5em;
+    }
+    
+    #footer-logo{
+        position: absolute;
+        text-align: center;
+        left: .1em;
+        top: 3.5em;
+        width: 98%;
+
+    }
+    
+    #footer-logo img{
+        height: 1.5em;
+    }
+    
+    #footer-links{
+        position: absolute;
+        top: 6em;
+        font-size: 14px;
+        width: 100%;
+        right: 0;
+        text-align: center;
+        color: #fff;
+    }
+    
+    #footer-links a{
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    #footer-links p{
+        margin-top: 4px;
+    }
+    
+    .select-style-large{
+        border: 1px solid #c7c7c7;
+        border-radius: .1em;
+        display: inline-block;
+        width:100%;
+        border:none; 
+        outline:none; 
+        background:none;
+    }
+    .input-style-large{
+        border: 1px solid #c7c7c7;
+        border-radius: .1em;
+        display: inline-block;
+        width:100%;
+    }
+    
+    .select-style-large{
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        text-indent: 1px;
+        text-overflow: ' ';
+    }
+    
+    .input-style-short{
+        border: 1px solid #c7c7c7;
+        border-radius: .1em;
+        display: inline-block;
+        width: 47%;
+    }
+    
+    .input-style-short input,
+    .input-style-large input{
+        display: inline-block;
+        background: none;
+        width: 100%;
+        border: none;
+        outline: none;
+        height: 1.9em;
+    }
+    
+    .input-style-short{
+        position: relative;
+    }
+    
+    
+    .spacing{
+        margin-bottom: 1.5em;
+    }
+    
+    .svg-style{
+        height: 25px;
+        margin-left: 1em;
+        fill: #fff;
+    }
+    
+}
+
+@media (min-width: 480px){
+    #main-area{
+        background: #fff;
+        width: 80%;
+        height: 50%;
+        margin: 80px auto;
+        padding: 40px 30px;
+    }
+    
+    #register-header{
+        font-size: 1em;
+        padding: 1px;
+        margin-bottom: 1em;
+    }
+    
+    #title{
+        color: #6200ee;
+        margin-bottom: .5em ;
+    }
+    
+    #inputs{
+        width: 102%;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #space{
+        display: inline-block;
+        width: 1px;
+    }
+    
+    #select{
+        border:1px solid #c7c7c7; 
+        width:98%
+    }
+    
+    #rodape-main-area{
+        font-size: 14px;
+        margin-top: 20px;
+        text-align: center;
+        padding: 1em;
+    }
+    
+    #btn{
+        border: none;
+        display: inline-block;
+        width: 100%;
+        margin-top: 1em;
+        padding: .5em;
+        background: #6200ee;
+        color: #fff;
+        font-weight: bold;
+        border-radius: .3em;
+        cursor: pointer;
+    }
+    
+    #rodape-pagina{
+        height: 200px;
+        width: 100%;
+        background: #6200ee;
+    }
+    #footer-elements{
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+    }
+    #footer-container{
+        position: absolute;
+        top: .5em;
+        left: 1em;
+        display: block;
+        width: 90%;
+        text-align: center;
+    }
+
+    #footer-container a{
+        margin: 0 .5em;
+    }
+    
+    #footer-logo{
+        position: absolute;
+        text-align: center;
+        left: .1em;
+        top: 3.5em;
+        width: 98%;
+
+    }
+    
+    #footer-logo img{
+        height: 1.5em;
+    }
+    
+    #footer-links{
+        position: absolute;
+        top: 6em;
+        font-size: 14px;
+        width: 100%;
+        right: 0;
+        text-align: center;
+        color: #fff;
+    }
+    
+    #footer-links a{
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    #footer-links p{
+        margin-top: 4px;
+    }
+    
+    .select-style-large{
+        border: 1px solid #c7c7c7;
+        border-radius: .1em;
+        display: inline-block;
+        width:100%;
+        border:none; 
+        outline:none; 
+        background:none;
+    }
+    .input-style-large{
+        border: 1px solid #c7c7c7;
+        border-radius: .1em;
+        display: inline-block;
+        width:98%;
+    }
+    
+    .select-style-large{
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        text-indent: 1px;
+        text-overflow: ' ';
+    }
+    
+    .input-style-short{
+        border: 1px solid #c7c7c7;
+        border-radius: .1em;
+        display: inline-block;
+        width: 48%;
+    }
+    
+    .input-style-short input,
+    .input-style-large input{
+        display: inline-block;
+        background: none;
+        width: 100%;
+        border: none;
+        outline: none;
+        height: 1.9em;
+    }
+    
+    .input-style-short{
+        position: relative;
+    }
+    
+    
+    .spacing{
+        margin-bottom: 1.5em;
+    }
+    
+    .svg-style{
+        height: 28px;
+        margin-left: .5em;
+        fill: #fff;
+    } 
+}
+@media (min-width: 768px){
+    #main-area{
+        background: #fff;
+        width: 45%;
+        height: 50%;
+        margin: 80px auto;
+        padding: 40px 30px;
+    }
+    
+    #register-header{
+        font-size: 1em;
+        padding: 1px;
+        margin-bottom: 1em;
+    }
+    
+    #title{
+        color: #6200ee;
+        margin-bottom: .5em ;
+    }
+    
+    #inputs{
+        width: 102%;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #space{
+        display: inline-block;
+        width: 1px;
+    }
+    
+    #select{
+        border:1px solid #c7c7c7; 
+        width:98%
+    }
+    
+    #rodape-main-area{
+        font-size: 14px;
+        margin-top: 20px;
+        text-align: center;
+        padding: 1em;
+    }
+    
+    #btn{
+        border: none;
+        display: inline-block;
+        width: 100%;
+        margin-top: 1em;
+        padding: .5em;
+        background: #6200ee;
+        color: #fff;
+        font-weight: bold;
+        border-radius: .3em;
+        cursor: pointer;
+    }
+    
+    #rodape-pagina{
+        height: 200px;
+        width: 100%;
+        background: #6200ee;
+    }
+    #footer-elements{
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+    }
+    #footer-container{
+        position: absolute;
+        top: .5em;
+        left: .8em;
+        display: block;
+        width: 95%;
+        text-align: center;
+    }
+
+    #footer-container a{
+        margin: 0 .5em;
+    }
+    
+    #footer-logo{
+        position: absolute;
+        text-align: center;
+        left: .05em;
+        top: 3.5em;
+        width: 98%;
+
+    }
+    
+    #footer-logo img{
+        height: 1.5em;
+    }
+    
+    #footer-links{
+        position: absolute;
+        top: 6em;
+        font-size: 14px;
+        width: 100%;
+        right: 0;
+        text-align: center;
+        color: #fff;
+    }
+    
+    #footer-links a{
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    #footer-links p{
+        margin-top: 4px;
+    }
+    
+    .select-style-large{
+        border: 1px solid #c7c7c7;
+        border-radius: .1em;
+        display: inline-block;
+        width:100%;
+        border:none; 
+        outline:none; 
+        background:none;
+    }
+    .input-style-large{
+        border: 1px solid #c7c7c7;
+        border-radius: .1em;
+        display: inline-block;
+        width:98%;
+    }
+    
+    .select-style-large{
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        text-indent: 1px;
+        text-overflow: ' ';
+    }
+    
+    .input-style-short{
+        border: 1px solid #c7c7c7;
+        border-radius: .1em;
+        display: inline-block;
+        width: 48%;
+    }
+    
+    .input-style-short input,
+    .input-style-large input{
+        display: inline-block;
+        background: none;
+        width: 100%;
+        border: none;
+        outline: none;
+        height: 1.9em;
+    }
+    
+    .input-style-short{
+        position: relative;
+    }
+    
+    
+    .spacing{
+        margin-bottom: 1.5em;
+    }
+    
+    .svg-style{
+        height: 28px;
+        margin-left: .5em;
+        fill: #fff;
+    } 
+}
+@media (min-width: 1024px){
+    #main-area{
+        background: #fff;
+        width: 40%;
+        height: 50%;
+        margin: 80px auto;
+        padding: 40px 30px;
+    }
+    
+    #register-header{
+        font-size: 1em;
+        padding: 1px;
+        margin-bottom: 1em;
+    }
+    
+    #title{
+        color: #6200ee;
+        margin-bottom: .5em ;
+    }
+    
+    #inputs{
+        width: 102%;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #space{
+        display: inline-block;
+        width: 1px;
+    }
+    
+    #select{
+        border:1px solid #c7c7c7; 
+        width:98%
+    }
+    
+    #rodape-main-area{
+        font-size: 14px;
+        margin-top: 20px;
+        text-align: center;
+        padding: 1em;
+    }
+    
+    #btn{
+        border: none;
+        display: inline-block;
+        width: 100%;
+        margin-top: 1em;
+        padding: .5em;
+        background: #6200ee;
+        color: #fff;
+        font-weight: bold;
+        border-radius: .3em;
+        cursor: pointer;
+    }
+    
+    #rodape-pagina{
+        height: 200px;
+        width: 100%;
+        background: #6200ee;
+    }
+    #footer-elements{
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+    }
+    #footer-container{
+        position: absolute;
+        top: .5em;
+        left: .8em;
+        display: block;
+        width: 95%;
+        text-align: center;
+    }
+
+    #footer-container a{
+        margin: 0 .5em;
+    }
+    
+    #footer-logo{
+        position: absolute;
+        text-align: center;
+        left: .05em;
+        top: 3.5em;
+        width: 98%;
+
+    }
+    
+    #footer-logo img{
+        height: 1.5em;
+    }
+    
+    #footer-links{
+        position: absolute;
+        top: 6em;
+        font-size: 14px;
+        width: 100%;
+        right: 0;
+        text-align: center;
+        color: #fff;
+    }
+    
+    #footer-links a{
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    #footer-links p{
+        margin-top: 4px;
+    }
+    
+    .select-style-large{
+        border: 1px solid #c7c7c7;
+        border-radius: .1em;
+        display: inline-block;
+        width:100%;
+        border:none; 
+        outline:none; 
+        background:none;
+    }
+    .input-style-large{
+        border: 1px solid #c7c7c7;
+        border-radius: .1em;
+        display: inline-block;
+        width:98%;
+    }
+    
+    .select-style-large{
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        text-indent: 1px;
+        text-overflow: ' ';
+    }
+    
+    .input-style-short{
+        border: 1px solid #c7c7c7;
+        border-radius: .1em;
+        display: inline-block;
+        width: 48%;
+    }
+    
+    .input-style-short input,
+    .input-style-large input{
+        display: inline-block;
+        background: none;
+        width: 100%;
+        border: none;
+        outline: none;
+        height: 1.9em;
+    }
+    
+    .input-style-short{
+        position: relative;
+    }
+    
+    
+    .spacing{
+        margin-bottom: 1.5em;
+    }
+    
+    .svg-style{
+        height: 28px;
+        margin-left: .5em;
+        fill: #fff;
+    } 
+}
+
